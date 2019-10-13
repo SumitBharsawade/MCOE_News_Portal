@@ -1,12 +1,11 @@
-package te_compa.mcoe_news_portal;
+package te_compa.mcoe_news_portal_user_sumit;
+
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
@@ -50,7 +49,7 @@ public class NewsAdapter extends ArrayAdapter<newsData> {
             artLen = 25;
         }
 
-                newsTitle.setText(news.newsTitle);
+        newsTitle.setText(news.newsTitle);
         SimpleDateFormat dateFormatter = new SimpleDateFormat("E, MMM d 'at' h:m a");
         dateview.setText(dateFormatter.format(news.date));
         introview.setText(news.article.substring(0,artLen)+"...");

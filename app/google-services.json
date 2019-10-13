@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:189805651271:android:9c5fe95bc5176dae",
         "android_client_info": {
-          "package_name": "te_compa.mcoe_news_portal"
+          "package_name": "te_compa.mcoe_news_portal_user_sumit"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "189805651271-vvq7kmmrb9dpb8sefs2srd2sj6fpksin.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "te_compa.mcoe_news_portal",
+            "package_name": "te_compa.mcoe_news_portal_user_sumit",
             "certificate_hash": "f903424f577bad2b7b374f141e054aa91aa1c4db"
           }
         },
